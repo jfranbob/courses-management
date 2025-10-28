@@ -35,4 +35,4 @@ jobs:
           context: .
           file: boot/Dockerfile
           push: true
-          tags: youruser/courses-management:latest
+          tags: jfranbob/courses-management:latest
