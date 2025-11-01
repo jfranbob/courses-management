@@ -9,11 +9,11 @@ import java.util.Optional;
 import java.util.UUID;
 
 @Repository
-public class StudentRepositoryImpl implements StudentRepository {
+public class DatabaseStudentRepository implements StudentRepository {
     private final StudentRepositoryJpa jpa;
     private final StudentMapper mapper;
 
-    public StudentRepositoryImpl(StudentRepositoryJpa jpa, StudentMapper mapper) {
+    public DatabaseStudentRepository(StudentRepositoryJpa jpa, StudentMapper mapper) {
         this.jpa = jpa;
         this.mapper = mapper;
     }
